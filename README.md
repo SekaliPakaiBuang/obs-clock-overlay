@@ -8,7 +8,7 @@ Cocok buat streamer, yaiyalah orang buat OBS
 ## Yang Kamu Butuhkan
  - OBS Studio, yang versi terbaru biar gampang
  - Aplikasi buat unzip, bisa winrar, 7zip dll
-## Yang Perlu Kamu Lakukan
+## Yang Harus Kamu Lakukan
  - Download filenya (disebelah kanan ada Releases tuh)
  - Unzip filenya
  - Buka OBS Studio, tambah browser source baru (kalo gatau caranya cari di internet)
