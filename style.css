@@ -1,11 +1,11 @@
 html {
-    --bar-color-1: #ff1900;
-    --bar-color-2: #ffcc00;
-    --bar-color-3: #00ff6a;
-    --bar-color-4: #0099ff;
+    --bar-color-1: #f10;
+    --bar-color-2: #fc0;
+    --bar-color-3: #0f6;
+    --bar-color-4: #09f;
 
-    --fg-color: #e1f4f3;
-    --bg-color: linear-gradient(-0.125turn, #0c1821, #1b2a41);
+    --fg-color: #eff;
+    --bg-color: linear-gradient(-0.125turn, #012, #124);
 
 }
 
@@ -30,8 +30,8 @@ body {
     background: var(--bg-color);
     color: var(--fg-color);
 
-    border-radius: 0.25em;
-    box-shadow: 4px 4px 2px black;
+    border-radius: 0.5em;
+    box-shadow: 0px 4px 8px #000a;
 }
 
 #time {
@@ -64,6 +64,5 @@ body {
     width: 100%;
     height: inherit;
 
-    background-color: white;
     border-radius: inherit;
 }

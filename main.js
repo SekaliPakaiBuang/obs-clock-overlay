@@ -30,23 +30,23 @@ function loop() {
     // Progress bar logic
     switch (now.getMinutes() % 4) {
         case 0:
-            secondsBar.style.backgroundColor = "var(--bar-color-1)";
-            secondsProgress.style.backgroundColor = "var(--bar-color-2)";
+            secondsBar.style.background = "var(--bar-color-1)";
+            secondsProgress.style.background = "var(--bar-color-2)";
             break;
 
         case 1:
-            secondsBar.style.backgroundColor = "var(--bar-color-2)";
-            secondsProgress.style.backgroundColor = "var(--bar-color-3)";
+            secondsBar.style.background = "var(--bar-color-2)";
+            secondsProgress.style.background = "var(--bar-color-3)";
             break;
 
         case 2:
-            secondsBar.style.backgroundColor = "var(--bar-color-3)";
-            secondsProgress.style.backgroundColor = "var(--bar-color-4)";
+            secondsBar.style.background = "var(--bar-color-3)";
+            secondsProgress.style.background = "var(--bar-color-4)";
             break;
 
         case 3:
-            secondsBar.style.backgroundColor = "var(--bar-color-4)";
-            secondsProgress.style.backgroundColor = "var(--bar-color-1)";
+            secondsBar.style.background = "var(--bar-color-4)";
+            secondsProgress.style.background = "var(--bar-color-1)";
             break;
     }
 
