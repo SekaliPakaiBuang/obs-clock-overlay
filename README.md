@@ -16,6 +16,8 @@ Cocok buat streamer, yaiyalah orang buat OBS
  - Pencet Browse, terus cari deh file **index.html** yang udah di unzip tadi
  - Ganti width & height sesuai kebutuhan (saranku sih width 256 height 144)
  - Pencet OK
+
+Kalo gamau download filenya, kalian bisa pakai link dibawah about section.
 ## Yang Bisa Kamu Lakukan
 Kalo kalian merasa overlay nya kok jelek tampilannya apa gimana, kalian bisa modifikasi dengan 2 cara:
 1. Pake Custom CSS (biar gampang)
@@ -38,7 +40,7 @@ Contoh:
     }
 Bar color 1 sampe 4 untuk warna progress bar,\
 FG Color untuk warna teks,\
-BG Color untuk warna latar belakang (background)\
+BG Color untuk warna latar belakang (background)
 
 NB: Pastikan kalian mudeng CSS ya adik-adik, kalo gak mudeng mending minta tolong temenmu
 ### Cara 2: Edit filenya langsung
