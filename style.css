@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
 html {
     --bar-color-1: #f10;
     --bar-color-2: #fc0;
@@ -16,7 +18,7 @@ body {
 
     width: 100vw;
     height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "JetBrains Mono", sans-serif;
 
     display: flex;
     justify-content: center;
@@ -40,7 +42,7 @@ body {
     justify-content: space-between;
 
     font-size: 2em;
-    font-weight: 750;
+    font-weight: 800;
 }
 
 #date {
@@ -48,9 +50,8 @@ body {
 
     text-align: center;
 
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.0em;
-    font-weight: 375;
+    font-weight: 400;
 }
 
 #seconds-bar {
