@@ -27,13 +27,13 @@ body {
 
 #container {
     display: block;
-    padding: 10px;
+    padding: 8px;
 
     background: var(--bg-color);
     color: var(--fg-color);
 
-    border-radius: 0.5em;
-    box-shadow: 0px 4px 8px #000a;
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px #000a;
 }
 
 #time {
@@ -41,7 +41,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 
-    font-size: 2em;
+    font-size: 32px;
     font-weight: 800;
 }
 
@@ -50,7 +50,7 @@ body {
 
     text-align: center;
 
-    font-size: 1.0em;
+    font-size: 16px;
     font-weight: 400;
 }
 
