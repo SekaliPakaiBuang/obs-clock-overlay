@@ -46,7 +46,7 @@ BG Color untuk warna latar belakang (background)
 NB: Pastikan kalian mudeng CSS ya adik-adik, kalo gak mudeng mending minta tolong temenmu
 ### Cara 2: Edit filenya langsung
 Kalo kalian mau lebih dari sekedar ganti warna, misal mau ganti layout,  
-ganti codingannya sekalian biar gak kayak jam lagi mungkin /chuaksssss
+ganti codingannya sekalian biar gak kayak jam lagi mungkin /chuaksssss  
 Kalian bisa edit filenya.
 
 - index.html isinya kerangka halaman (anjay kerangka)
