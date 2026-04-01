@@ -9,7 +9,8 @@ Cocok buat streamer, yaiyalah orang buat OBS
  - OBS Studio, yang versi terbaru biar gampang
  - Aplikasi buat unzip, bisa winrar, 7zip dll (kalo mau jalur download)
 ## Yang Harus Kamu Lakukan
-Cara yang direkomendasikan adalah dengan [link ini](https://sekalipakaibuang.github.io/obs-clock-overlay/), sama kayak yang di about section di kanan atas bro
+Cara yang direkomendasikan adalah dengan [link ini](https://sekalipakaibuang.github.io/obs-clock-overlay/), sama kayak yang di about section di kanan atas bro\
+Dicopy linknya ke browser source ya bro
 
 Tapi kalo mau pakai jalur download, pakai cara dibawah ini
  - Download filenya (Code>Download ZIP atau clone)
