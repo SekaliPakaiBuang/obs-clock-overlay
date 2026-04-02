@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,GRAD,ROND@6..144,-10..0,25..151,1..1000,0..100,0..100&display=swap');
 
 html {
     --bar-color-1: #f10;
@@ -7,8 +7,7 @@ html {
     --bar-color-4: #09f;
 
     --fg-color: #eff;
-    --bg-color: linear-gradient(-0.125turn, #012, #124);
-
+    --bg-color: linear-gradient(to bottom right, #124, #012);
 }
 
 body {
@@ -18,7 +17,10 @@ body {
 
     width: 100vw;
     height: 100vh;
-    font-family: "JetBrains Mono", sans-serif;
+
+    font-family: "Google Sans Flex", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 75, "GRAD" 100, "ROND" 100;
+    font-feature-settings: "tnum";
 
     display: flex;
     justify-content: center;
@@ -32,8 +34,7 @@ body {
     background: var(--bg-color);
     color: var(--fg-color);
 
-    border-radius: 8px;
-    box-shadow: 4px 4px 4px #000a;
+    box-shadow: 4px 4px 0px #0005;
 }
 
 #time {
@@ -64,6 +65,4 @@ body {
 #seconds-progress {
     width: 100%;
     height: inherit;
-
-    border-radius: inherit;
 }
