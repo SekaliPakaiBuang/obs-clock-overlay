@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,GRAD,ROND@6..144,-10..0,25..151,1..1000,0..100,0..100&display=swap');
 
 html {
-    --bar-color-1: #f10;
-    --bar-color-2: #fc0;
-    --bar-color-3: #0f6;
-    --bar-color-4: #09f;
+    --bar-color-1: #F14;
+    --bar-color-2: #FE0;
+    --bar-color-3: #0E7;
+    --bar-color-4: #27F;
 
-    --fg-color: #eff;
+    --fg-color: #fff;
     --bg-color: linear-gradient(to bottom right, #124, #012);
 }
 
@@ -19,7 +19,7 @@ body {
     height: 100vh;
 
     font-family: "Google Sans Flex", sans-serif;
-    font-variation-settings: "slnt" 0, "wdth" 75, "GRAD" 100, "ROND" 100;
+    font-variation-settings: "slnt" 0, "wdth" 100, "GRAD" 100, "ROND" 100, "opsz" 144;
     font-feature-settings: "tnum";
 
     display: flex;
@@ -28,13 +28,14 @@ body {
 }
 
 #container {
-    display: block;
+    display: inline-block;
     padding: 8px;
 
     background: var(--bg-color);
     color: var(--fg-color);
 
-    box-shadow: 4px 4px 0px #0005;
+    box-shadow: 4px 4px 0px #000a;
+    border-radius: 8px;
 }
 
 #time {
@@ -42,7 +43,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 
-    font-size: 32px;
+    font-size: 48px;
     font-weight: 800;
 }
 
@@ -51,13 +52,13 @@ body {
 
     text-align: center;
 
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 #seconds-bar {
-    width: 160px;
-    height: 10px;
+    width: 100%;
+    height: 16px;
 
     background-color: black;
 }

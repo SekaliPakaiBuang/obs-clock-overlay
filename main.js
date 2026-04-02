@@ -17,7 +17,7 @@ function loop() {
 
     // Blink every second
     separator.forEach(i => {
-        i.style.opacity = `${(1000 - (now.getMilliseconds() % 1000)) / 1000}`;
+        i.style.opacity = now.getMilliseconds() < 500 ? "1" : "0";
     });
 
     // Display time
